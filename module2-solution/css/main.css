@@ -9,6 +9,8 @@ body {
 h1 {
   text-align: center;
 }
+
+/*Mobile first - Default to mobile*/
 [class*="col-"] {
   width: 100%;
 }
@@ -22,15 +24,14 @@ h1 {
   margin: 0px;
   padding: 15px;
 }
+
 .menu-item {
   color: red;
   padding: 10px;
   border: 1px solid black;
   margin-right: 15px;
   float: left;
-  /*border-radius: 25px;*/
   height: auto;
-  /*background-clip: content-box;*/
 }
 
 .section{
@@ -58,7 +59,6 @@ h1 {
   color: white;
 }
 
-
 .menu-category-description{
   margin: 15px;
 }
@@ -73,6 +73,7 @@ h1 {
   text-align: center;
 }
 
+/*iPad*/
 @media only screen and (min-width: 768px) {
   .col-m-1 {width: 8.33%;}
   .col-m-2 {width: 16.66%;}
@@ -88,6 +89,7 @@ h1 {
   .col-m-12 {width: 100%;}
 }
 
+/*Desktop*/
 @media only screen and (min-width: 992px) {
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
