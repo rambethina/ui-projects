@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
 [class*="col-"] {
   width: 100%;
 }
@@ -31,9 +38,9 @@
   border: 1px solid black;
   padding-top: 10px;
   position: relative;
-  background-color: black;
-  color: cyan;
-  min-height: 160px;
+  background-color: grey;
+  color: white;
+  min-height: 250px;
 }
 
 #section1-tite{
@@ -61,6 +68,9 @@
   top: 0px;
   right: 0px;
   border: 1px solid black;
+  width: 100px;
+  height: 25px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 768px) {
